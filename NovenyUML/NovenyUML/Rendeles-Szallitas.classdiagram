@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="3bc6af6d-daf3-4ef0-a2f7-bbc60506662e" name="Rendeles" linkedPackageId="be6c84e1-f069-45fa-9c51-c60cf478a203" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="71b4a68c-82e8-48ad-a4cc-c0fcb5479e1e">
+      <profileInstance Id="4f6b73f0-14ed-42fe-9889-97da1905877e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="cabc0d81-46e3-4863-a233-cc15b5bc2d90">
+      <profileInstance Id="116ed5f6-fad0-4305-8415-edf3d0dc63e7" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <referencedType Id="f38f22b5-cb4e-4fff-83cb-00873d38caeb" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="af995c27-d7e6-47ec-b0ce-28b878e8a1e5" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5d97f796-d365-4534-b730-1febd63e9ef2" name="Felhasznalo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="02d42c4e-a02d-4d32-b9f4-2c1c770653f7" />
+        <targetEnds>
+          <association Id="320617b7-b0bb-46cb-ad8e-dfdbe87af3a2" isDerived="false" sourceEndRoleName="Felhasznalo" targetEndRoleName="Regio" isLeaf="false" isAbstract="false">
+            <enumerationMoniker Id="4ce99fe3-acbf-462d-90e5-63d28a92e7b9" LastKnownName="Regio" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8a36203f-151a-4aae-beba-cb656e5245e6" name="Felhasznalo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c0f6fdae-8fad-4d00-bdb2-0823826043c7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4ff70f74-13e0-4d90-8718-8df7fc986a4c" name="Regio" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="68b1e28b-e9eb-4bcb-8f0a-4e87ebec0325" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b926b406-94af-4bb2-a12c-6ceb3877e25b" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="66f9db5b-89af-49ba-957e-ed1be73e63e1" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cadd5dec-cea9-406d-b7a5-e215fec19f83" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f38f22b5-cb4e-4fff-83cb-00873d38caeb" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="b8ff61e5-ffbc-49ef-bafc-f8bc091d21f9" name="jelszo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="31393a7c-8ab8-420d-861d-8f7dd483b88c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bf58a036-3cf1-4397-b90c-241e5244f44c" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="ac4f10c3-b4f3-43bf-96ab-3e606cb626b0" name="cim" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9ec3be0b-d80b-4500-a31a-6ee78da57312" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="40484db8-f003-4659-8457-3b8b35263936" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="f6a151d6-571d-477b-8bfb-664dd6c1b125" name="email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dacf8621-4175-4f1d-a920-d98b50a3a528" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="af995c27-d7e6-47ec-b0ce-28b878e8a1e5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="f5b7227f-6549-4fed-8dc1-5055e9fd6dee" name="nev" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fbbb0dfa-3841-4f3b-8f99-e5340bfe3083" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="02f14afb-0dbe-4815-8db0-22c1498c466f" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="c49829f6-8b86-43c2-affc-11975816579b" name="telszam" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="47b71a8f-8423-46a9-8c2d-64a7b08d3618" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="30bb1a06-02c7-44bc-a167-b17dd995afca" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="ce939291-32ba-4f09-a3c2-9bfc2692324f" name="regio" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="494b54a5-5b1e-4d58-8433-66e630bbce71" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3c891dc6-e6c3-4579-81b8-fb2d68542d98" LastKnownName="Regio" />
+            </type_NamedElement>
+          </property>
+          <property Id="8be3f501-198a-4ceb-8f50-f849e17aa513" name="rendeles" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e15fb952-c569-41bb-8622-a327ee912692" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="772c641c-6c7b-49a0-b966-9f54943e8fc4" LastKnownName="List&lt;Rendeles&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="796ceee3-0ff9-4e87-8bb7-c5112e518fc9" name="Kosar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b56fa2c7-1e6b-43f5-bed0-050f3e000265" />
+        <targetEnds>
+          <association Id="af407b22-aa07-4a39-b48d-b87d15f6a057" isDerived="false" sourceEndRoleName="Kosar" targetEndRoleName="KosarTetel" isLeaf="false" isAbstract="false">
+            <classMoniker Id="a347f1c0-f954-4da2-a334-4020615a54da" LastKnownName="KosarTetel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3e7acaed-ecc4-40b0-9326-fe853116b5db" name="Kosar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="47e37cfc-259a-4bcb-a69e-3acf5c07669f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="96939b40-a1b3-4ca9-a34a-cb00f324e140" name="KosarTetel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="6c59f75b-f663-401b-b16a-aa4ba8b416cd" name="Lower" value="n">
+                      <elementDefinition Id="47490b39-84fa-4d2a-9ff8-3ed139fbc3a8" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="35224127-68be-434e-a595-ed570d2e3dbe" name="Upper" value="n">
+                      <elementDefinition Id="c76253bf-3eca-4b01-b59d-dd028b66014f" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="aee5b779-9bdd-4ca3-ab24-b33f4dcb8801" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e6aa8c3d-1096-4ca3-8213-7acf51bf4f47" />
+          </association>
+          <association Id="673f1cd7-fc86-418a-8c85-e3ee0d8d66ee" isDerived="false" sourceEndRoleName="Kosar" targetEndRoleName="Vasarlo" isLeaf="false" isAbstract="false">
+            <classMoniker Id="bedbc62c-2d61-4ab1-9d21-36cf01ed8997" LastKnownName="Vasarlo" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e509730f-e58f-4150-b0da-2c0d77a04c9f" name="Kosar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="eebe99b7-b0d5-46d3-919c-82463d2f6cd5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2fd6526a-8c2f-497e-a4a4-fe1485e1a2cc" name="Vasarlo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e5fba880-2c68-4c7a-b1b2-5ec6f61273a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="928ddc43-7ad2-45a9-8114-fb3aa6a9120c" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="fe5bee6a-416d-4dae-8b6a-e10f29dc1a95" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ca319bd3-211c-40ec-9b88-355dd171a1c7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="af995c27-d7e6-47ec-b0ce-28b878e8a1e5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="6e3cb620-9853-4966-99ca-585cadefb8fd" name="vasarlo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e776ed29-5045-4795-96c4-54b79ebe59a9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="82d128f6-f4da-4977-ad23-f48ba278d28a" LastKnownName="Vasarlo" />
+            </type_NamedElement>
+          </property>
+          <property Id="7566020c-fa80-44be-9a70-9fb1b2c198e4" name="kosarTetel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e7122cb8-29e6-4016-a112-483bb076e88e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7872a2db-4639-4a95-82d8-c3b5775601c7" LastKnownName="List&lt;KosarTetel&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="05d6670b-0e4c-4d9b-85b7-b7d50963460d" name="vegosszegSzamol" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8ab82ca5-5767-4e63-9a82-97df8984d2a8" />
+          </operation>
+          <operation Id="c59a682f-cae5-4f38-a0ab-f00f31be4407" name="sulySzamol" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="03926484-d2ca-4591-b80b-6c8b60a35f43" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bedbc62c-2d61-4ab1-9d21-36cf01ed8997" name="Vasarlo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0a4a2e5c-c882-4d3d-bf48-2ea3d4a1da3f" />
+        <generalsInternal>
+          <generalization Id="8318a7e9-328f-4b60-bc6a-4989fdc7ebf2" isSubstitutable="false">
+            <classMoniker Id="5d97f796-d365-4534-b730-1febd63e9ef2" LastKnownName="Felhasznalo" />
+            <elementDefinition Id="a1c62670-50cd-48bb-b38d-b291118ed0e2" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="26fc9103-e6b5-4d40-af53-80ae5e8b124b" name="szuldat" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a48ff637-eb32-4bc4-892e-8b34ec315dc7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="9ea557c6-76e8-4e72-a73d-3961bf504b94" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c259b371-75fa-4655-8438-da96a06e972d" name="Kerteszet" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b359aa2a-4c4f-48e5-903f-667cffa793ef" />
+        <generalsInternal>
+          <generalization Id="702ee756-8941-47f8-9a9d-631e4a9c2481" isSubstitutable="false">
+            <classMoniker Id="5d97f796-d365-4534-b730-1febd63e9ef2" LastKnownName="Felhasznalo" />
+            <elementDefinition Id="ccb0c131-3671-4f49-beaf-6ca929097bab" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="1dc1120c-e902-4b0e-8aa0-dfae7aa204f6" isDerived="false" sourceEndRoleName="Kerteszet" targetEndRoleName="Futar" isLeaf="false" isAbstract="false">
+            <classMoniker Id="912b6d55-3218-4993-8ab0-c4fbb2760b8c" LastKnownName="Futar" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a5989930-b014-4590-a54e-1f9076a946fb" name="Kerteszet" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2d03a3f3-168e-4cb4-a237-c7a008e101ad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="19c397bd-8c18-4c7a-8bd5-f23886efe5dd" name="Futar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="76ff1076-416d-4e4d-bb04-c814732ef46f" name="Lower" value="n">
+                      <elementDefinition Id="29aaa4f5-7e0c-4bc7-af3a-1dea0ed77787" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="5f17872b-36de-4893-b616-a3cc6153108c" name="Upper" value="n">
+                      <elementDefinition Id="681ae340-9d50-4d24-82e2-40d9aed86d2d" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="68c23a8c-c4d1-46d1-8db6-e70c183f16a9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="47d68dcb-a482-4f76-98cb-379d17bd7b5f" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="05a5660b-0a9b-4fa4-b159-98c9adf2f59a" name="futar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f0286cde-5ae1-47b1-9377-3c22f4757b6d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d9b5300e-c066-49bf-8e2a-12d14f2c5193" LastKnownName="List&lt;Futar&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="912b6d55-3218-4993-8ab0-c4fbb2760b8c" name="Futar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6de3f3d8-44c1-41c3-b675-2e9ee9997ec8" />
+        <generalsInternal>
+          <generalization Id="d6e6b204-b538-449d-8681-76c822caa9e7" isSubstitutable="false">
+            <classMoniker Id="5d97f796-d365-4534-b730-1febd63e9ef2" LastKnownName="Felhasznalo" />
+            <elementDefinition Id="4703f464-8f6d-4407-a896-6f94ad9d1679" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="fca75bc5-6b8d-4e5a-b468-ffd0f9b69a7a" name="telephely" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f7ec8ab3-d67e-4129-8332-33134698ffde" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="af995c27-d7e6-47ec-b0ce-28b878e8a1e5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="4ce99fe3-acbf-462d-90e5-63d28a92e7b9" name="Regio" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bdbc0288-dc0f-4764-bc6e-fb3347d0930c" />
+        <ownedLiterals>
+          <enumerationLiteral Id="3b094b6f-e736-4e93-a907-ee80f9b34169" name="R1">
+            <elementDefinition Id="b887ea62-60e0-435a-948a-0a0307f9e7f8" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="4566e89a-5836-400f-9629-6fc906de13b6" name="R2">
+            <elementDefinition Id="69cfda2c-690e-43ea-9b57-e970a3afe9a4" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="3f9d1efd-2542-4ba8-ae55-0419c3eeeee6" name="R3">
+            <elementDefinition Id="c5fd1ff2-63b3-4120-9332-b1a8a2447ac5" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="3425afb9-e830-4cd4-b6c3-071343201ac3" name="R4">
+            <elementDefinition Id="e41bf367-51c3-4d15-ae28-d2b432bc5fc7" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="40484db8-f003-4659-8457-3b8b35263936" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="bf58a036-3cf1-4397-b90c-241e5244f44c" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="02f14afb-0dbe-4815-8db0-22c1498c466f" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="30bb1a06-02c7-44bc-a167-b17dd995afca" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="82d128f6-f4da-4977-ad23-f48ba278d28a" name="Vasarlo" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Vasarlo">
+        <elementDefinition Id="0a4a2e5c-c882-4d3d-bf48-2ea3d4a1da3f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9fedcad0-f544-4620-a099-600e59cc12d6" name="Noveny" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0f93f2e5-d771-4a96-9cf2-dd0059451964" />
+        <ownedAttributesInternal>
+          <property Id="8cb6fc52-09f8-4c04-9582-7d76385bee8d" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ccc53528-3408-430f-9b9e-a7f1ecc93042" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="af995c27-d7e6-47ec-b0ce-28b878e8a1e5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="0fd4bd97-4530-446c-bbc8-a17588f4ac72" name="nev" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="eb5b40f8-8071-4c65-86a9-0d8a28b7a355" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="af995c27-d7e6-47ec-b0ce-28b878e8a1e5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="6490c0c4-15b5-4f8f-88cf-5530d2a63b7c" name="tipus" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9250c464-9b0b-41f1-baa3-2b05c64f925b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="af995c27-d7e6-47ec-b0ce-28b878e8a1e5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="a0fe65e6-5d96-49a7-8737-62d19a633752" name="fajta" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ecb955ee-e7ac-450e-a661-f73fc00e520a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="40dcc7e6-6987-4c4b-baf8-0e98d92d4e9a" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="480dbaa1-50c6-4c18-bed5-c109382bca16" name="meret" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d293dcfd-6299-4f31-8098-f39a300aaa5c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f38f22b5-cb4e-4fff-83cb-00873d38caeb" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="5c364a8e-3a63-42b9-9c17-96c374459fc0" name="forgalmazo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d3a95bb8-db9e-4cb2-a086-cd76be97c55d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="50438f10-69b5-4fb2-b140-44d01061fb58" LastKnownName="Kerteszet" />
+            </type_NamedElement>
+          </property>
+          <property Id="aa43d0fd-148e-41e0-960a-a0d1a15fab9e" name="ar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="381885f9-6f84-4c25-9ecb-3a76d1316bef" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f38f22b5-cb4e-4fff-83cb-00873d38caeb" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="2673df9a-4675-4757-9fa2-c0976ae870b7" name="mennyiseg" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="58908a46-9891-4762-8695-f1dc70400379" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f38f22b5-cb4e-4fff-83cb-00873d38caeb" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="33a33e2f-8438-480e-bebc-3faed17c3ae9" name="suly" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="33e412a9-d85b-4063-a989-a62b62253b6d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="23f6906f-3530-454c-a9d9-8a28d9add24f" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="9ea557c6-76e8-4e72-a73d-3961bf504b94" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
+        <elementDefinition Id="8444c327-0686-4d68-9d1f-d606e4d9647a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3c891dc6-e6c3-4579-81b8-fb2d68542d98" name="Regio" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Regio">
+        <elementDefinition Id="bdbc0288-dc0f-4764-bc6e-fb3347d0930c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="40dcc7e6-6987-4c4b-baf8-0e98d92d4e9a" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="50438f10-69b5-4fb2-b140-44d01061fb58" name="Kerteszet" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Kerteszet">
+        <elementDefinition Id="b359aa2a-4c4f-48e5-903f-667cffa793ef" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7872a2db-4639-4a95-82d8-c3b5775601c7" name="List&lt;KosarTetel&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;KosarTetel&gt;">
+        <elementDefinition Id="f0160347-60ae-40a3-b9ac-ad82220ddcc8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a347f1c0-f954-4da2-a334-4020615a54da" name="KosarTetel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a6e41ca8-e539-4928-8f3a-9016915163f3" />
+        <targetEnds>
+          <association Id="bd51cffd-7882-4d90-89f7-e47d1a4f6a61" isDerived="false" sourceEndRoleName="KosarTetel" targetEndRoleName="Noveny" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9fedcad0-f544-4620-a099-600e59cc12d6" LastKnownName="Noveny" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="654a168e-e610-4f64-b077-ae85ae7495b6" name="KosarTetel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="e4e263aa-8639-462f-b132-1de30b06886d" name="Lower" value="n">
+                      <elementDefinition Id="58791164-7138-4666-be9e-664579264021" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="e71d1009-d4d7-4c55-86a1-9b7173d317db" name="Upper" value="n">
+                      <elementDefinition Id="3d5e679b-8112-4e8a-bfb7-618648eec655" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="62d7bcbf-2b3a-4407-b254-1b37cf38e029" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fe512b69-d8a9-49ee-a2f4-cf3f70dfb592" name="Noveny" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="aff51a62-a97c-422e-a9a9-c5f0c5275f50" name="Lower" value="n">
+                      <elementDefinition Id="05e17fc3-b890-4130-a59b-9001ba07db71" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="c801a708-4f22-46c4-aba4-cde43c70c2e4" name="Upper" value="n">
+                      <elementDefinition Id="4f415a5c-6ed6-41df-984d-90194cc893e5" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="907daee4-1053-49c9-aef4-1844043f7890" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="54344ed4-a588-4273-8b88-3b2f3e0d0744" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="8f2e90e6-a810-42ac-ab0b-c8a46407b160" name="noveny" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a2511a24-b582-4f9c-b5ea-70000d3eb6b2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="db180890-66bd-4624-b7a1-f58269697a1d" LastKnownName="Noveny" />
+            </type_NamedElement>
+          </property>
+          <property Id="40ed7014-591b-48e0-9b45-fba80f80c0e9" name="darabszam" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7f46264c-7523-40e5-88a4-67957cbb9b6a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f38f22b5-cb4e-4fff-83cb-00873d38caeb" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="fa681ef2-4adf-42ef-a32a-81dae46084a6" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1b1ba3b7-8e03-41f1-b0c5-8825ec9b84ce" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="af995c27-d7e6-47ec-b0ce-28b878e8a1e5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="db180890-66bd-4624-b7a1-f58269697a1d" name="Noveny" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Noveny">
+        <elementDefinition Id="0f93f2e5-d771-4a96-9cf2-dd0059451964" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7d29053f-0cb1-48f9-9ce7-7629d1333b36" name="Rendeles" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7f3d13d2-7459-407c-9bb3-272c9f69172a" />
+        <targetEnds>
+          <association Id="480b2a1a-b1f5-4b69-aee5-860fcd2823a0" isDerived="false" sourceEndRoleName="Rendeles" targetEndRoleName="FizetesiMod" isLeaf="false" isAbstract="false">
+            <enumerationMoniker Id="bae265f5-b828-4d38-aa86-3bbc10b4880e" LastKnownName="FizetesiMod" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f55da61f-f92f-4910-a4f4-49ed81e6f364" name="Rendeles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4d9649f9-441f-4de6-9098-909e0ddc0c1c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7a0f6ccd-4972-46f7-9bce-73ba1eba4744" name="FizetesiMod" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="778aaf0b-eea9-4486-a261-9fd53d3baeff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="95b177fe-f255-4e28-b63d-d9984576fe18" />
+          </association>
+          <association Id="ff09ccba-48ec-48de-b835-083734f4f9af" isDerived="false" sourceEndRoleName="Rendeles" targetEndRoleName="Futar" isLeaf="false" isAbstract="false">
+            <classMoniker Id="912b6d55-3218-4993-8ab0-c4fbb2760b8c" LastKnownName="Futar" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="95702b1a-c1c5-49dd-a0ba-64b6dbcd2158" name="Rendeles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="942c5003-e86f-41a5-862e-ef214770f378" name="Lower" value="n">
+                      <elementDefinition Id="ae107aee-f42e-4387-9c89-9e4af9dce148" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="28fe0354-a7d3-4962-b529-d8ff9d3ee87a" name="Upper" value="n">
+                      <elementDefinition Id="bbc75a31-6ede-4b24-b5bd-d87a5485a40d" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="6cded71a-a8d7-4a27-a715-30c8de082011" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f34788d5-d5aa-4c7c-9054-13ea873d13b0" name="Futar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1a563a34-629e-42b2-a66a-ca407a4e8d96" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a7493ea4-b3b7-4417-aafd-37f2be15d6a9" />
+          </association>
+          <association Id="84fcb7de-9c18-4fe3-babe-7660b6c83d83" isDerived="false" sourceEndRoleName="Rendeles" targetEndRoleName="Kosar" isLeaf="false" isAbstract="false">
+            <classMoniker Id="796ceee3-0ff9-4e87-8bb7-c5112e518fc9" LastKnownName="Kosar" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="543b1b79-0361-419f-9684-ac9064ba7249" name="Rendeles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2502541f-1b1c-409c-92d7-c4efaa38f85a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6e54ede9-cdbb-40d9-a2e8-9def2692631b" name="Kosar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="50c82e26-8e24-4395-8a21-adfe1a456dfc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="123bd6f1-b7f8-40ea-af83-ab199baefd9e" />
+          </association>
+          <association Id="bf090e30-8497-44bf-9b24-cdfd399256e0" isDerived="false" sourceEndRoleName="Rendeles" targetEndRoleName="SulyKategoria" isLeaf="false" isAbstract="false">
+            <enumerationMoniker Id="4dafd187-04e5-4c43-a027-fdca74fe036d" LastKnownName="SulyKategoria" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cff942c2-e740-47e3-8f41-7d86510b2743" name="Rendeles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="23495d09-bc47-4d97-beac-b698bfbe1725" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b6a46a72-0d21-4150-bd30-9fdd90dbd75f" name="SulyKategoria" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="901abd42-64e1-4cb1-97dc-2003402383f8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="eff7d7b0-931d-4f6e-9e54-90e36fb93cc1" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="daad1d6c-d9cb-497a-8d0c-5a37ba3fcd7b" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c706a2c1-703d-4669-81ab-6acef14891c8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6c2ee7b4-5597-4582-b21e-6635c491270f" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="6e34aacd-b931-4664-af68-18ce2a9735c2" name="futar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4b2a6ffd-17b5-41c5-8c18-30ff7ed69371" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e2f93b90-c5ed-492f-a0b8-d80eb4b7cdd6" LastKnownName="Futar" />
+            </type_NamedElement>
+          </property>
+          <property Id="e891cedd-0c54-45fe-8fbd-6aeda8ae11ed" name="darum" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="85fb5de2-a1dd-47d6-990c-6c5c880668bd" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="9ea557c6-76e8-4e72-a73d-3961bf504b94" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+          <property Id="3aa5d878-b4e3-433b-ad05-bd4e3818dd07" name="fizetesiMod" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7446d284-f909-4184-a9d9-d7eb92995908" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="63820283-f889-492e-8ae6-68ef45369565" LastKnownName="FizetesiMod" />
+            </type_NamedElement>
+          </property>
+          <property Id="0ddcfd8c-5bb3-4793-80eb-2a953551440a" name="fizetve" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="76c7b086-b571-4eb3-b4b1-7b3516238a5e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f3766ce8-1d16-45e5-a3fe-68f6859783ca" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="599364bf-9bf4-4c27-9857-1632bdf5f897" name="kosar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="aa5b6ec2-7069-4824-92eb-ade6b431ff7f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2966782b-6b87-420f-8d9c-f67635523cf4" LastKnownName="Kosar" />
+            </type_NamedElement>
+          </property>
+          <property Id="fa8e6825-c792-4dc2-a72f-45e687c0f85b" name="osszSuly" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="04a0f4a8-2630-491b-aa77-61fda3f16bc2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="23f6906f-3530-454c-a9d9-8a28d9add24f" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="faf5dcb9-12aa-4c82-b351-2031e9f68cf7" name="sulyKategoria" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b4d6554c-cf69-439b-8d71-b7e3d6c1667f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="39d555b0-3e86-48d5-9c11-6e4d1d8a13b0" LastKnownName="SulyKategoria" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="1ded25c6-3bbe-4f24-aec8-4e9694aa2263" name="vegosszegSzamol" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9ff483be-f47e-45c3-8c49-68c9d76a2ad5" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="772c641c-6c7b-49a0-b966-9f54943e8fc4" name="List&lt;Rendeles&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Rendeles&gt;">
+        <elementDefinition Id="2d3c149b-b6d5-4b5d-88e1-3531797f394e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6c2ee7b4-5597-4582-b21e-6635c491270f" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e2f93b90-c5ed-492f-a0b8-d80eb4b7cdd6" name="Futar" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Futar">
+        <elementDefinition Id="6de3f3d8-44c1-41c3-b675-2e9ee9997ec8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d9b5300e-c066-49bf-8e2a-12d14f2c5193" name="List&lt;Futar&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Futar&gt;">
+        <elementDefinition Id="ed0b7f37-58d6-4944-9f38-9173896302e8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="23f6906f-3530-454c-a9d9-8a28d9add24f" name="Double" isAbstract="false" isLeaf="false" cachedFullName="Double">
+        <elementDefinition Id="72f415f0-8461-4ce6-81e9-db28d0182ab1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="bae265f5-b828-4d38-aa86-3bbc10b4880e" name="FizetesiMod" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="84d2b5a7-d6dc-4edc-8172-236c39982959" />
+        <ownedLiterals>
+          <enumerationLiteral Id="1f3c6db8-62df-4a18-a10c-d5abef6a1dac" name="bankkartya">
+            <elementDefinition Id="87f61875-c06d-4b39-a28f-893e9d3ffddd" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="1b462a5a-a56c-4af8-8b77-b980b9d84274" name="utalas">
+            <elementDefinition Id="aa92d836-2c31-4da0-b862-3ad116955004" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="ee5b0d7a-96fa-42a1-ad82-031d9119699d" name="utanvet">
+            <elementDefinition Id="920aaf50-708a-4ece-8932-e62d374c09c0" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="63820283-f889-492e-8ae6-68ef45369565" name="FizetesiMod" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::FizetesiMod">
+        <elementDefinition Id="84d2b5a7-d6dc-4edc-8172-236c39982959" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f3766ce8-1d16-45e5-a3fe-68f6859783ca" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2966782b-6b87-420f-8d9c-f67635523cf4" name="Kosar" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Kosar">
+        <elementDefinition Id="b56fa2c7-1e6b-43f5-bed0-050f3e000265" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="39d555b0-3e86-48d5-9c11-6e4d1d8a13b0" name="SulyKategoria" isAbstract="false" isLeaf="false" cachedFullName="SulyKategoria">
+        <elementDefinition Id="73609a65-84c1-4eae-a02e-7066faef029b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="4dafd187-04e5-4c43-a027-fdca74fe036d" name="SulyKategoria" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="52ec010e-0eb2-4f72-95a3-b938ae216ebc" />
+        <ownedLiterals>
+          <enumerationLiteral Id="4e934603-8969-44ae-8c65-a42342c1202f" name="S1 - 0-5 kg : 1000 Ft">
+            <elementDefinition Id="8c66fd58-f67a-4257-adc7-549f7e666470" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="b28d834e-ee40-4ce0-825c-84f008033e85" name="S2 - 6-10 kg : 1500 Ft">
+            <elementDefinition Id="66bc5983-05c8-41a1-86d5-20d1eaa4d42b" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="4e1e1ded-cb11-401f-939f-088741ea97a9" name="S3 - 10-20 kg : 2000 Ft">
+            <elementDefinition Id="2a911563-5dcc-457a-a8cb-762f6b13b59c" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="5c4ca6f0-f121-4105-8f45-f6a998cd6712" name="S4 - 20+ kg : 3000 Ft">
+            <elementDefinition Id="328e062f-60c5-427d-b2a4-30c888915fde" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="be6c84e1-f069-45fa-9c51-c60cf478a203" name="NovenyUML">
+    <elementDefinition Id="d9f476a8-048d-4421-a7ca-73e7db54c8a7" />
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="7a908c4a-4a43-481e-a619-37e6d6b3b353" name="UI" linkedPackageId="b9b903f0-365d-4c5c-beea-941e0553d4cb" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="d2b2a639-9099-4bdd-ad8a-2f55d504fa79">
+      <profileInstance Id="638d1f54-3bc0-492c-8f18-39732642bf6d" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b66262a0-9456-45f6-b048-9afd1b33c0ab">
+      <profileInstance Id="61f33651-f1c6-4b98-a77f-98d91a67c7fe" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7d045f69-2095-48e7-9ea6-e48744b89762" name="LoginForm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9dc40691-f8ba-4f93-a364-60e24771c489" />
+        <suppliersInternal>
+          <dependency Id="f23a49d0-f4b3-460c-8bfa-7d0d710ae9d5" name="btnReg_Click()">
+            <classMoniker Id="a78248a0-b560-49ec-8eef-0413d18c5286" LastKnownName="RegForm" />
+            <elementDefinition Id="e8dbb586-0bbe-41f4-93df-04f8d37d7983" />
+          </dependency>
+          <dependency Id="99070d8b-dbc9-4cc3-87e5-e5f99c5b0680" name="btnBelepes_Click(Vasarlo)">
+            <classMoniker Id="c412a34f-36b5-49e7-88a5-533234abf39f" LastKnownName="KezdoForm" />
+            <elementDefinition Id="04c2b707-3b93-4448-95c8-e17b9789d226" />
+          </dependency>
+          <dependency Id="1f8fabc8-b72e-40ed-aef9-2dbde424f227" name="btnBelepes_Click(Kerteszet)">
+            <classMoniker Id="2104b67d-e325-4c13-8506-49a55e9dcb7a" LastKnownName="TermekFeltoltesForm" />
+            <elementDefinition Id="de55049f-f943-401c-91ce-1692a72bead7" />
+          </dependency>
+          <dependency Id="1189dbd3-8118-4b22-a93d-1e13680a18a8" name="btnBelepes_Click(Futar)">
+            <classMoniker Id="be4a27db-05e0-4c1b-99d3-893b35a32346" LastKnownName="FutarForm" />
+            <elementDefinition Id="98c03bc0-0c39-4d98-9a1c-7c80fe993adf" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="8d810ebe-5a4c-437f-899e-9c9d59ce9755" name="tbEmail" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="66d1b2d5-bf45-449f-a8cc-f5fd4cab0cda" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5c6d5875-cdf8-4e4d-bfe0-cb40a5872d86" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="de6c6787-6f42-4d1a-b331-895142d242e5" name="tbJelszo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6a079cd3-1d17-4e96-8e56-0719cd9d4c67" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b3f903cc-933c-410f-b574-be5815ab3daa" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="30efca31-42b9-472f-af2c-dd9179a2d6a8" name="btnBelepes" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b5184e3d-ef57-4be9-b8b2-0cdf92a08b3d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f469db33-ce75-4b96-8cca-4773c526beef" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="3fbf733a-9170-465f-95a7-e89b4a618d23" name="btnReg" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f4c3fca8-efd4-45c8-97bc-15131ecd5714" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="11181cc8-bf40-4b25-bd9b-34f04472975e" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="2e781449-566b-44f2-903c-f3d1753dcc98" name="labelEmail" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f4c73142-3b2d-472d-b10d-549057850d79" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="625262f8-e435-4478-8618-4af467ce72ac" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="d48f1f51-439c-460e-84ec-4a56d38951c2" name="labelJelszo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6bf9ba4a-6bbf-41a9-a4ed-5a59229d7861" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d3d18de1-085e-47e6-8349-9ac02b7e045d" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="5da0ef15-882e-4df1-be2e-d97779166854" name="btnElfelejtettJelszo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5747083a-79a5-439d-a358-0c8dba89909c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f469db33-ce75-4b96-8cca-4773c526beef" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="46f5bd2c-dab5-4c8b-9e32-e68fb0f27325" name="lbFelhasznaloFajta" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e5eff3b1-b131-4657-994b-9574fa0bbb04" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="40642a5b-5440-4d2a-9259-a2c2aac07887" LastKnownName="ListBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="4dd787ae-981d-4477-8d7c-0c7c9a0f074b" name="labelFelhFajta" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1d56fd44-b56c-4117-8d8c-dd597b9bad66" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="925cf5ce-8156-4a58-b145-1b706d76cf4b" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="3e82472b-48fe-4bdb-b66c-a5d2114c189f" name="btnBelepes_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="242c468a-14c4-409c-bfce-53f8121c3bdd" />
+          </operation>
+          <operation Id="f76d97b4-c0c6-4133-97fd-602965c2b6f4" name="btnReg_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="564de6a4-3df6-4698-8482-a69ae4355bbc" />
+          </operation>
+          <operation Id="715ab7a7-6a26-4c8f-819b-038afa201683" name="btnElfelejtettJelszo_Ckick" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="90eef51d-544c-4c34-a5dc-dc798a638c21" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a78248a0-b560-49ec-8eef-0413d18c5286" name="RegForm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d681ff11-8c54-46a1-b2c4-720e05c52371" />
+        <ownedAttributesInternal>
+          <property Id="ae6a9a67-1643-495a-b949-a53271bc16d7" name="labelNev" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="048faae8-7d05-4f6b-8ef6-31dc7d39024f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d2dbb476-a32f-43ab-9c08-9acc096efce5" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="578dad80-9ef2-403b-a78d-b3f3a75b6b32" name="labelJelszo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="71c5ba3a-0c54-43c3-9867-904a293896fc" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6fcaa830-6027-465c-a29d-a8d2e93f8c4f" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="02c25dc6-8fc7-48c8-b86d-06a44fa36230" name="tbNev" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bc59aa9e-adbf-4390-90af-2f16bd508470" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="be4eab90-e27c-4ccf-aa9d-03604d84761d" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="b23f0c0f-16ab-46ba-a8b4-e06275653b2c" name="tbJelszo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6cc3d5e5-38cb-45d6-aaec-04c2f513c89d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="552608d7-8e67-4986-b476-8ea59fd75c74" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="bc3d534c-a667-49e5-9bf8-64990af7276e" name="labelJelszo2" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="67bbba26-ed89-4b2f-b013-c496559b3f97" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cdd8e497-e652-4c42-a894-f16fcf8a5d9d" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="55f3220a-5efd-4702-85e4-3b13e388bcae" name="tbJelszo2" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2245c644-04ab-42ee-b9ae-fa51c1d41441" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b3f903cc-933c-410f-b574-be5815ab3daa" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="ad2fac6e-4cd7-47a1-8281-da0cc8fd0ab2" name="labelRegio" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9c86e2b5-f62a-4633-b7db-f4cec3e67ba4" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="95658c42-3ff7-41ad-b472-9d370581f83e" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="dc14b9be-c41a-43a9-a141-2ba4762635cd" name="telszam" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="663029cc-545d-4a4e-972c-ce5b4a6343a0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="23164c29-7726-4cc1-aa88-ae7b19ee4eca" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="1e144a5a-8eaf-4f43-8c95-91d5b6b20c4f" name="labelCim" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9cd6e959-3a03-42db-a9c6-6a3a85111e6b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b3166c15-e2dd-44bf-bcc1-34593a0542d1" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="6f6ff264-1f61-4510-b445-a23bf2eecbe9" name="labelEmail" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cedc180d-9813-42c4-8c63-b99c80705bb3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2fb940f5-1b58-4dcd-8fb7-1cc279b731eb" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="1d113024-1ce3-4840-9300-ee46352fea0b" name="cbRegio" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="93cc60aa-fe8e-4013-b76a-95c5ec9474f1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b49cecbd-02a5-4d86-98a5-6dd1d59c7f51" LastKnownName="ComboBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="7899a2d0-83b2-451c-a21a-16d956d9bc3c" name="telszam1" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4af4e161-4cda-4b4e-8f34-d666cd0aa0f0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6ac5ea53-5bee-45a9-9ee4-f98002e55f30" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="3e4cb34e-c37e-4d12-8809-858ecdc8f836" name="tbCim" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="deb5d388-de6e-487d-8284-54a390976e23" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="9910c7f9-e329-475e-93ee-11df75965830" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="6d44f150-221e-4c84-abdc-14982e19753b" name="tbEmail" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0196cb01-5a8c-4fc9-b952-54170fe16edd" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="35bc7293-234e-4bfd-a16e-1410e1776ab4" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="c1b46419-101b-4fe9-a380-954a55500d28" name="btnVissza" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="939674ad-7154-498f-9d35-fd1578d8a63f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f469db33-ce75-4b96-8cca-4773c526beef" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="f1db274b-2cc6-477f-80ae-d00c47279c29" name="btnReg" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="266dda09-2844-4067-ae53-e3bc860c262f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f469db33-ce75-4b96-8cca-4773c526beef" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="02780a62-4bf8-44ec-9341-4aa14a8abad4" name="labelFelhFajta" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bafe8aae-d886-4c3a-9a53-717e776b9551" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="625262f8-e435-4478-8618-4af467ce72ac" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="7af51851-be64-4b56-b647-e16c9ef3b6dc" name="lbFelhasznaloFajta" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7509dd19-f6fd-4d99-bf5b-3d787466a48f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1a000b82-0d92-49b4-8cbb-d9015cd0198b" LastKnownName="ListBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="05049149-a390-40a2-9ea5-0f35fa6eeee7" name="labelSzuldat" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="01ad682b-261d-4240-8338-4c89d2b55153" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="625262f8-e435-4478-8618-4af467ce72ac" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="fe1b8525-288b-4d5d-b8cc-b494a433a2dc" name="dtpSzuldat" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d551a858-ac5d-4129-8c05-58c4ffc5e108" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="30e1b80f-7914-415a-b289-edc0c1c74737" LastKnownName="DateTimePicker" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="8f65acc6-510f-43ef-8287-16a74780af2e" name="btnVissza_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6e085552-5d8f-4c9b-8e19-39882abbf96a" />
+          </operation>
+          <operation Id="027429be-ffe6-4dd2-8a24-cd63a1d24581" name="btnReg_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f107376a-7f30-46b2-a623-44b78fd557b9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="b3f903cc-933c-410f-b574-be5815ab3daa" name="TextBox" isAbstract="false" isLeaf="false" cachedFullName="TextBox">
+        <elementDefinition Id="4789ea25-c76a-419c-8e2c-7ed3e4922ea2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f469db33-ce75-4b96-8cca-4773c526beef" name="Button" isAbstract="false" isLeaf="false" cachedFullName="Button">
+        <elementDefinition Id="ff31a1dd-38df-41c2-a97a-6ce3b8799637" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="11181cc8-bf40-4b25-bd9b-34f04472975e" name="Button" isAbstract="false" isLeaf="false" cachedFullName="Button">
+        <elementDefinition Id="ff31a1dd-38df-41c2-a97a-6ce3b8799637" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="552608d7-8e67-4986-b476-8ea59fd75c74" name="TextBox" isAbstract="false" isLeaf="false" cachedFullName="TextBox">
+        <elementDefinition Id="4789ea25-c76a-419c-8e2c-7ed3e4922ea2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="23164c29-7726-4cc1-aa88-ae7b19ee4eca" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5c6d5875-cdf8-4e4d-bfe0-cb40a5872d86" name="TextBox" isAbstract="false" isLeaf="false" cachedFullName="TextBox">
+        <elementDefinition Id="4789ea25-c76a-419c-8e2c-7ed3e4922ea2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="be4eab90-e27c-4ccf-aa9d-03604d84761d" name="TextBox" isAbstract="false" isLeaf="false" cachedFullName="TextBox">
+        <elementDefinition Id="4789ea25-c76a-419c-8e2c-7ed3e4922ea2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6ac5ea53-5bee-45a9-9ee4-f98002e55f30" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9910c7f9-e329-475e-93ee-11df75965830" name="TextBox" isAbstract="false" isLeaf="false" cachedFullName="TextBox">
+        <elementDefinition Id="4789ea25-c76a-419c-8e2c-7ed3e4922ea2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="35bc7293-234e-4bfd-a16e-1410e1776ab4" name="TextBox" isAbstract="false" isLeaf="false" cachedFullName="TextBox">
+        <elementDefinition Id="4789ea25-c76a-419c-8e2c-7ed3e4922ea2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="625262f8-e435-4478-8618-4af467ce72ac" name="Label" isAbstract="false" isLeaf="false" cachedFullName="Label">
+        <elementDefinition Id="b046efc6-a0b9-4152-a4c3-55f758a43770" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d3d18de1-085e-47e6-8349-9ac02b7e045d" name="Label" isAbstract="false" isLeaf="false" cachedFullName="Label">
+        <elementDefinition Id="b046efc6-a0b9-4152-a4c3-55f758a43770" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b3166c15-e2dd-44bf-bcc1-34593a0542d1" name="Label" isAbstract="false" isLeaf="false" cachedFullName="Label">
+        <elementDefinition Id="b046efc6-a0b9-4152-a4c3-55f758a43770" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2fb940f5-1b58-4dcd-8fb7-1cc279b731eb" name="Label" isAbstract="false" isLeaf="false" cachedFullName="Label">
+        <elementDefinition Id="b046efc6-a0b9-4152-a4c3-55f758a43770" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6fcaa830-6027-465c-a29d-a8d2e93f8c4f" name="Label" isAbstract="false" isLeaf="false" cachedFullName="Label">
+        <elementDefinition Id="b046efc6-a0b9-4152-a4c3-55f758a43770" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cdd8e497-e652-4c42-a894-f16fcf8a5d9d" name="Label" isAbstract="false" isLeaf="false" cachedFullName="Label">
+        <elementDefinition Id="b046efc6-a0b9-4152-a4c3-55f758a43770" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d2dbb476-a32f-43ab-9c08-9acc096efce5" name="Label" isAbstract="false" isLeaf="false" cachedFullName="Label">
+        <elementDefinition Id="b046efc6-a0b9-4152-a4c3-55f758a43770" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="95658c42-3ff7-41ad-b472-9d370581f83e" name="Label" isAbstract="false" isLeaf="false" cachedFullName="Label">
+        <elementDefinition Id="b046efc6-a0b9-4152-a4c3-55f758a43770" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b49cecbd-02a5-4d86-98a5-6dd1d59c7f51" name="ComboBox" isAbstract="false" isLeaf="false" cachedFullName="ComboBox">
+        <elementDefinition Id="79848e2b-f6cc-421b-a3dc-21f60e0f5ec2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1a000b82-0d92-49b4-8cbb-d9015cd0198b" name="ListBox" isAbstract="false" isLeaf="false" cachedFullName="ListBox">
+        <elementDefinition Id="c01154c9-cbfb-47b1-a22b-9398d06cec20" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="40642a5b-5440-4d2a-9259-a2c2aac07887" name="ListBox" isAbstract="false" isLeaf="false" cachedFullName="ListBox">
+        <elementDefinition Id="c01154c9-cbfb-47b1-a22b-9398d06cec20" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="925cf5ce-8156-4a58-b145-1b706d76cf4b" name="Label" isAbstract="false" isLeaf="false" cachedFullName="Label">
+        <elementDefinition Id="b046efc6-a0b9-4152-a4c3-55f758a43770" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c412a34f-36b5-49e7-88a5-533234abf39f" name="KezdoForm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1ea44ade-26e5-4442-8cc9-3e94a7951234" />
+        <suppliersInternal>
+          <dependency Id="6ad5c5d7-0c99-4dfb-acb5-05f88b368656" name="termekekMI_Click()">
+            <classMoniker Id="b973946c-84f3-4314-a718-fdc353037161" LastKnownName="TermekekForm" />
+            <elementDefinition Id="049f50ed-71c7-4f67-8036-f7ac9783927c" />
+          </dependency>
+          <dependency Id="28935c8d-0e6a-4a59-a983-751438d52057" name="kosarMI_Click()">
+            <classMoniker Id="0d04ca80-eb02-47fd-b3af-6eed7b5abd11" LastKnownName="KosarForm" />
+            <elementDefinition Id="5ef40068-3ece-41c0-9235-19f3c6cc2d56" />
+          </dependency>
+          <dependency Id="bdf747db-7951-4e8f-9972-99e271f1138e" name="kapcsolatMI_Click()">
+            <classMoniker Id="88c264a4-09db-49e0-a6ae-f249996c3b04" LastKnownName="KapcsolatForm" />
+            <elementDefinition Id="4dcd53b4-c977-4a4e-bffc-f74c3fdf4950" />
+          </dependency>
+          <dependency Id="5ed7ddc1-8380-402f-9f72-58035f83c9b2" name="rendelesekMI_Click()">
+            <classMoniker Id="81523153-6ea4-4233-ae55-3284ce34e785" LastKnownName="RendelesekForm" />
+            <elementDefinition Id="1b773d4e-cddd-4375-9c47-9bc3e8b0365a" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="7e9645fe-a1fe-4621-ad7e-e13886e97ff1" name="kosarMI" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="495bd2d6-712d-453d-9776-fa8ca84c698e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b9b32444-06ad-410b-8fd4-6f44786af136" LastKnownName="MenuItem" />
+            </type_NamedElement>
+          </property>
+          <property Id="35d009d6-dce5-412f-80a3-2a3b483066d4" name="termekekMI" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="40f65297-a61c-47a9-a25f-2f3952f6c9c6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b9b32444-06ad-410b-8fd4-6f44786af136" LastKnownName="MenuItem" />
+            </type_NamedElement>
+          </property>
+          <property Id="ef8a0f89-2412-4744-b0b5-012982083016" name="kapcsolatMI" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c3f0a6c5-ae94-4bbf-a9e6-af88f74ee358" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b9b32444-06ad-410b-8fd4-6f44786af136" LastKnownName="MenuItem" />
+            </type_NamedElement>
+          </property>
+          <property Id="8f666e11-d9d1-467b-8b0f-2b0fbdbd69de" name="rendelesekMI" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="03275b52-047e-4e1f-8708-9b8b99397903" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b9b32444-06ad-410b-8fd4-6f44786af136" LastKnownName="MenuItem" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="fcc4360e-7765-496b-bb8e-125e182a131d" name="kapcsolatMI_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3de6e968-1ea7-4944-a089-7d40b50a2dac" />
+          </operation>
+          <operation Id="d3f8d8eb-2ede-4845-879a-b316225959fe" name="kosarMI_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0e3b415f-3ea1-403c-be8b-7bfb4ae18369" />
+          </operation>
+          <operation Id="06ff8251-c87f-4f0f-87f4-3df6c3c40942" name="termekekMI_CLick" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3af1215b-44ae-4fa3-842f-f0b43e2a0cba" />
+          </operation>
+          <operation Id="8dfa32cc-290a-40fe-83f7-ed7276aa1cc5" name="rendelesekMI_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bbe85fc3-3dd0-4b66-a6cf-d3c56cf18ebe" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2104b67d-e325-4c13-8506-49a55e9dcb7a" name="TermekFeltoltesForm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f5e616ab-06d5-4143-be7d-70bf7f7e50c8" />
+        <ownedAttributesInternal>
+          <property Id="20d2db6a-dd08-4d41-ba7a-11908ffc8284" name="labelNev" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2b509d54-ad85-4d7a-a9b2-6add72162a2b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="625262f8-e435-4478-8618-4af467ce72ac" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="fb16d235-6cf9-4f06-b318-88e7bf866a16" name="tbNev" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="81688e79-fea1-4769-8270-b9e38ceaeb66" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b3f903cc-933c-410f-b574-be5815ab3daa" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="6d029024-4695-4b3f-b7d7-c9ed22231d7e" name="btnFeltolt" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3be6eed4-2c57-4a95-a3b1-9f340c425d23" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f469db33-ce75-4b96-8cca-4773c526beef" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="babc1c54-9759-43d7-a401-0a7a100e2f69" name="btnFeltolt_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="268a5422-4fbf-4af5-94ba-318c305ab5d6" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="b9b32444-06ad-410b-8fd4-6f44786af136" name="MenuItem" isAbstract="false" isLeaf="false" cachedFullName="MenuItem">
+        <elementDefinition Id="ff70fe80-bb50-4478-9752-5fe9333ea43e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="be4a27db-05e0-4c1b-99d3-893b35a32346" name="FutarForm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3bbb0393-fba4-4adf-b21a-80a8fc29da6a" />
+        <targetEnds>
+          <association Id="58008480-f811-4e5b-89b9-4cd7369dbf4c" isDerived="false" sourceEndRoleName="FutarForm" targetEndRoleName="Rendeles" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9ae394eb-1ba1-4353-8a1b-e8434259c5cd" LastKnownName="Rendeles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="42623a87-478f-4a30-a557-7c577a3a2263" name="FutarForm" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="420f7a8f-0250-494f-8b08-7b7e151d3bdc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="332dbe48-5c2f-4e1a-9978-fb46e3def532" name="Rendeles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="8c4c4c51-1d51-4b09-8502-6ae3cd8c76d0" name="Lower" value="n">
+                      <elementDefinition Id="70339c44-cf6d-4bbc-90ba-4841292e8b20" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="3e336e17-bd6b-465f-9dda-46c5018b15f0" name="Upper" value="n">
+                      <elementDefinition Id="5a4e215b-a38c-47e9-8640-1f87859fed3c" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="39a2c83d-0d48-4377-a8c6-dba8f46338a6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b5cbf655-17b9-4d6a-852b-04bbfa329303" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="4031dd19-2be3-430b-bc1b-0fc2957430cb" name="labelRendelesek" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6964376b-71bd-41ad-8c04-eef7e74cda80" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="625262f8-e435-4478-8618-4af467ce72ac" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="87bdaeff-6325-4188-8029-a014a2ee0b8d" name="lbRendelesek" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9a763103-0022-4768-93f5-178ed5af3f8e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1a000b82-0d92-49b4-8cbb-d9015cd0198b" LastKnownName="ListBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="dc87cc69-2d13-400a-92ed-694966800e71" name="btnTeljesitve" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0228974d-5cf1-4f27-a6d9-f18ae9ef3859" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f469db33-ce75-4b96-8cca-4773c526beef" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="f634821c-81a2-4099-b8f7-b0f0d9a0e227" name="rendeles" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b274f7c4-9ee4-49a4-bf3b-89e9674ae00b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="78d5ad2d-68cc-46cf-9f9a-74f98c85cd03" LastKnownName="List&lt;Rendeles&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="2a4b6f6b-b170-4a90-a974-903bc26da9f1" name="btnTeljesitve_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f32a2e8b-d48e-495a-937c-97e03cc7b661" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b973946c-84f3-4314-a718-fdc353037161" name="TermekekForm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="661c62ad-2743-4c2d-8dc1-670025ee36fd" />
+        <targetEnds>
+          <association Id="c2cdcfd4-bb07-4395-907d-b8bf17992201" isDerived="false" sourceEndRoleName="TermekekForm" targetEndRoleName="Noveny" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4d77ca6a-c466-4704-8df7-55b85dd00518" LastKnownName="Noveny" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bade8078-52b0-4f4a-9e78-af28d6654e99" name="TermekekForm" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3508cd50-4a3c-49d5-b2d5-465c0f573747" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8101692c-a0ea-41a8-b218-07893a8a7036" name="Noveny" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="0b117453-c763-472f-b7af-9a483eb2d8e6" name="Lower" value="n">
+                      <elementDefinition Id="cb27c0aa-a899-4217-86b7-50f50f569838" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="2d140e65-bc80-4ac5-ab65-0bf428fc9cb0" name="Upper" value="n">
+                      <elementDefinition Id="3ddd67ce-3546-4701-9df0-48de4e4cedf9" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="4cbea33b-5487-460f-badb-62332976695a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="07cdde69-cf06-4796-90f8-59a45357c3c5" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="4ac12c82-444d-4361-9f95-e5fca293bdcb" name="noveny" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="02f970fe-c139-4957-824f-871837561950" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d6234a2b-056e-4f58-aaba-08b47c3e3ee1" LastKnownName="List&lt;Noveny&gt;" />
+            </type_NamedElement>
+          </property>
+          <property Id="5dacf510-4b24-43bc-a6f7-d8811426d089" name="btnKosarba" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="078e378e-5665-4c9d-8954-0a71217e04ce" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f469db33-ce75-4b96-8cca-4773c526beef" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="3e6f9c5c-d1c1-47da-a9e6-d4ec374cdd93" name="labelDarabszam" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1083a878-0487-441d-bca6-289e556bb778" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="625262f8-e435-4478-8618-4af467ce72ac" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="b69ccac1-c7ce-489b-823c-b7fa4f11a21f" name="tbDarabszam" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7c5fcfea-887a-41a2-b40c-1190b6041575" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="849d8037-9f25-4b20-81b7-a4c1636e63f6" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="16a71a98-fb78-424f-8d96-266334f4f16a" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="41cf86e9-b7fc-43ba-94cd-a5d6543b6763" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="30e1b80f-7914-415a-b289-edc0c1c74737" name="DateTimePicker" isAbstract="false" isLeaf="false" cachedFullName="DateTimePicker">
+        <elementDefinition Id="a3476616-8515-4673-bc88-bd26accc159b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0d04ca80-eb02-47fd-b3af-6eed7b5abd11" name="KosarForm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="287c2a72-3395-4134-836b-124339dccf93" />
+        <targetEnds>
+          <association Id="65fd6979-fe46-4546-8c1c-6f2f4d950e00" isDerived="false" sourceEndRoleName="KosarForm" targetEndRoleName="Kosar" isLeaf="false" isAbstract="false">
+            <classMoniker Id="09700cea-1948-48cc-9b24-ef395ee916e0" LastKnownName="Kosar" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed9e7bf0-9e41-44ec-9b2a-74eb8582da75" name="KosarForm" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="97f8356c-cae1-44d4-a56c-f13d19d04f3a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d371b91f-7da2-4e2b-b92d-888fe62cee00" name="Kosar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a71b7b3d-f450-4643-8a5c-63a1669b1ab3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1d20ebad-b2dc-47a9-99b1-3532db167dcb" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="1a7dcdd6-9745-40fc-902b-25e8b5224d37" name="labelTermekek" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="90f84ff6-4021-42a1-b5d8-af20e428818c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="625262f8-e435-4478-8618-4af467ce72ac" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="62c04000-f6f3-41f9-bc34-cf4f42d3cffe" name="lbTermekek" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7b946afb-5352-4faf-9f65-e4afa55f896c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1a000b82-0d92-49b4-8cbb-d9015cd0198b" LastKnownName="ListBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="6f6391e4-8d49-48c5-b425-7fae192b6637" name="btnMegrendel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="53bf1fe7-c247-4c19-8958-e9f0f2b7bf65" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f469db33-ce75-4b96-8cca-4773c526beef" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="74d80d43-58fe-4b07-962b-a378f5baa6cd" name="kosar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fc542d31-3b8f-4549-823f-7bfd48ce3551" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="19997426-6123-4567-b471-da27907b4425" LastKnownName="Kosar" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="49ee0311-f773-4d5c-aaa8-8efed90a6baa" name="btnMegrendel_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2d5e841d-aae2-4249-9590-905f18b93b5a" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="d6234a2b-056e-4f58-aaba-08b47c3e3ee1" name="List&lt;Noveny&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Noveny&gt;">
+        <elementDefinition Id="a89df05c-c402-4217-82c2-0330ba8b0148" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="849d8037-9f25-4b20-81b7-a4c1636e63f6" name="TextBox" isAbstract="false" isLeaf="false" cachedFullName="TextBox">
+        <elementDefinition Id="4789ea25-c76a-419c-8e2c-7ed3e4922ea2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="88c264a4-09db-49e0-a6ae-f249996c3b04" name="KapcsolatForm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5c203bc3-28cc-4907-83a2-20579cb12382" />
+        <ownedAttributesInternal>
+          <property Id="125847d9-d580-41f7-8e43-a5aeccffcd41" name="labelEmail" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3bbc2d05-25a5-4482-b85d-1dc942fc4584" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dcac1617-30e6-4987-ae43-f2e044599fdd" LastKnownName="Label" />
+            </type_NamedElement>
+          </property>
+          <property Id="ee1d981e-85c3-47f0-b491-a468be2ffefc" name="tbEmail" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b277e9c2-1819-48ff-935f-21bfeeed340f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b3f903cc-933c-410f-b574-be5815ab3daa" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="6a9fecf2-0feb-4af3-af54-1de597df36fd" name="tbEmailSzoveg" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b568dcfa-805b-4085-9d34-f6a50f35c375" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b3f903cc-933c-410f-b574-be5815ab3daa" LastKnownName="TextBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="7c47ec01-c827-4b33-a4ca-f78176c9bbc1" name="btnKuldes" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9e27ba30-40ed-4689-8ddc-dbed08339284" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f469db33-ce75-4b96-8cca-4773c526beef" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="34a67339-f701-43e3-90ef-27e75d0ad564" name="btnKuldes_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="93204f25-329a-4a0a-a42c-ad821a08c1a1" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="dcac1617-30e6-4987-ae43-f2e044599fdd" name="Label" isAbstract="false" isLeaf="false" cachedFullName="Label">
+        <elementDefinition Id="b046efc6-a0b9-4152-a4c3-55f758a43770" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="bc931f57-8737-464a-885e-ee527e5c612a" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ffee1441-5a17-450d-ad79-d98cda990613" name="Vasarlo" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Vasarlo">
+        <elementDefinition Id="0a4a2e5c-c882-4d3d-bf48-2ea3d4a1da3f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3b0aa7fc-0669-4468-99a3-cedbe101773d" name="List&lt;KosarTetel&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;KosarTetel&gt;">
+        <elementDefinition Id="f0160347-60ae-40a3-b9ac-ad82220ddcc8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="09700cea-1948-48cc-9b24-ef395ee916e0" name="Kosar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c24c50a7-8812-41c3-b1d1-b791da8ced6f" />
+        <ownedAttributesInternal>
+          <property Id="06df6a34-a35b-459f-8d73-8f67f251a410" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="220daf96-f9b1-4e2f-8d6f-fcb3393272a4" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bc931f57-8737-464a-885e-ee527e5c612a" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="4f9e6324-3fe3-4cd2-b40c-3e8af2331064" name="vasarlo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="66543cfe-b96c-4cbe-a8cf-550b551a8f5e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="ffee1441-5a17-450d-ad79-d98cda990613" LastKnownName="Vasarlo" />
+            </type_NamedElement>
+          </property>
+          <property Id="828eb86d-292e-456a-b183-028dd24491ba" name="kosarTetel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7091ad36-376b-4acb-bcba-893b0f749195" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3b0aa7fc-0669-4468-99a3-cedbe101773d" LastKnownName="List&lt;KosarTetel&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="bba54b7c-6225-4720-94ab-d429eb87f718" name="vegosszegSzamol" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="488572f6-8091-4c16-8e4b-90426f041b55" />
+          </operation>
+          <operation Id="8afe8e8f-33d4-41cc-9504-d043c01dd41e" name="sulySzamol" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a19b6b18-3b40-44ad-9bb6-3fbd4720bc32" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="cf62ca77-3133-4f48-bb39-4fb09efc4e74" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="78816925-510b-4c12-99c0-be90f648793a" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="359050f1-7461-471f-bdd6-cebe9a0833c2" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d8e3c690-94f9-4420-a6ef-2469614eeb95" name="Kerteszet" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Kerteszet">
+        <elementDefinition Id="b359aa2a-4c4f-48e5-903f-667cffa793ef" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="057b9eeb-6dd6-436e-b060-7873e64d7015" name="Double" isAbstract="false" isLeaf="false" cachedFullName="Double">
+        <elementDefinition Id="72f415f0-8461-4ce6-81e9-db28d0182ab1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4d77ca6a-c466-4704-8df7-55b85dd00518" name="Noveny" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="295922d8-a242-4401-b197-4cab1c3189a2" />
+        <ownedAttributesInternal>
+          <property Id="273161e1-63cc-42ce-a871-bd59424baaf1" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="545ca2f8-f511-4d7b-bf63-333f45f9223a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cf62ca77-3133-4f48-bb39-4fb09efc4e74" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="c9cd4790-7a9a-49b9-bd0f-a36e903a32e7" name="nev" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="48b395aa-d0ed-49cd-ab0a-cbc0a1b216e2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cf62ca77-3133-4f48-bb39-4fb09efc4e74" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="c00eb314-4882-482d-8b4e-8a46ffa63930" name="tipus" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d906434b-c280-4b15-8f1b-1efba097df89" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cf62ca77-3133-4f48-bb39-4fb09efc4e74" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="0fd52e0b-8e25-47fa-ab8b-89c960a70ea3" name="fajta" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0451e261-e106-4beb-b725-80c1b867e1f7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="78816925-510b-4c12-99c0-be90f648793a" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="8d85c008-d06d-4d91-b231-25a95953fbd9" name="meret" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="71055444-dd0c-4281-abaf-dc329dff28a2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="359050f1-7461-471f-bdd6-cebe9a0833c2" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="e3064812-6b88-4b20-897b-ed0b3b35e9c1" name="forgalmazo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2f6ba276-9a6e-4c0b-aa04-d80f160864bb" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d8e3c690-94f9-4420-a6ef-2469614eeb95" LastKnownName="Kerteszet" />
+            </type_NamedElement>
+          </property>
+          <property Id="b1913cba-e790-406a-885d-c340af1f4986" name="ar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0eeb4669-45f1-4b2b-b745-28890b4bdf4a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="359050f1-7461-471f-bdd6-cebe9a0833c2" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="51416cb1-f983-4a35-aaa5-798fb17a5470" name="mennyiseg" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c2ec791c-24eb-4a80-a5b0-7a3b515c6a58" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="359050f1-7461-471f-bdd6-cebe9a0833c2" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="4fca0b3c-6f86-4cd9-acb5-51ac40b76df5" name="suly" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8e0203f8-60e5-4b5f-ad85-a8de35927980" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="057b9eeb-6dd6-436e-b060-7873e64d7015" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="19997426-6123-4567-b471-da27907b4425" name="Kosar" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Kosar">
+        <elementDefinition Id="b56fa2c7-1e6b-43f5-bed0-050f3e000265" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="81523153-6ea4-4233-ae55-3284ce34e785" name="RendelesekForm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fd33366e-cdb0-4f18-aa80-4a965e574542" />
+        <targetEnds>
+          <association Id="b33aa64b-a7af-48d2-a049-4934006372e3" isDerived="false" sourceEndRoleName="RendelesekForm" targetEndRoleName="Rendeles" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9ae394eb-1ba1-4353-8a1b-e8434259c5cd" LastKnownName="Rendeles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f075383f-9e5e-4d24-a239-d47b01144ca1" name="RendelesekForm" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="39385c6e-8ee7-4e15-82af-d45c8e1cbea8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="47f57237-59f3-491f-8c0e-957f634ace4b" name="Rendeles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="d4e57a31-c000-45bf-bfa7-8e73c6eb01f0" name="Lower" value="n">
+                      <elementDefinition Id="027fec8c-0e57-459e-ac8e-f24ffd38bb5f" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="9bd071ce-20fc-4c86-beb8-d722a44122e8" name="Upper" value="n">
+                      <elementDefinition Id="27ac50e4-85b2-44a2-810c-9bfb6a619040" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="e2ba1de3-ca0e-44f2-9a9e-e8d4801b3305" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6794110c-e406-477f-8692-4dbbd95d7221" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="08e46787-f571-4055-944a-f3f19ac866a3" name="rendeles" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e2ff43db-3f2d-43cb-b5fb-620bc18dd374" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="78d5ad2d-68cc-46cf-9f9a-74f98c85cd03" LastKnownName="List&lt;Rendeles&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="efc1f627-e4c8-4b95-aa1e-7c750c076bc3" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8d19db98-5ac6-4d05-bd1b-cd494584ad74" name="Futar" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Futar">
+        <elementDefinition Id="6de3f3d8-44c1-41c3-b675-2e9ee9997ec8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0c8d19b9-702f-4710-8413-f07d4e1d0ae9" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
+        <elementDefinition Id="8444c327-0686-4d68-9d1f-d606e4d9647a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="39e96918-01db-4caa-8a48-dbe27e9d7059" name="FizetesiMod" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::FizetesiMod">
+        <elementDefinition Id="84d2b5a7-d6dc-4edc-8172-236c39982959" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d57ac3f0-a703-4f8d-be5b-8aebd95e4d97" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cec9a64f-c824-4671-a778-7ef895764e36" name="Kosar" isAbstract="false" isLeaf="false" cachedFullName="NovenyUML::Kosar">
+        <elementDefinition Id="b56fa2c7-1e6b-43f5-bed0-050f3e000265" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f318e682-b43b-40ce-9ec2-cc03ef4c2094" name="Double" isAbstract="false" isLeaf="false" cachedFullName="Double">
+        <elementDefinition Id="72f415f0-8461-4ce6-81e9-db28d0182ab1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d2856c4d-d91c-480b-92d7-ca270fb543ef" name="SulyKategoria" isAbstract="false" isLeaf="false" cachedFullName="SulyKategoria">
+        <elementDefinition Id="73609a65-84c1-4eae-a02e-7066faef029b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9ae394eb-1ba1-4353-8a1b-e8434259c5cd" name="Rendeles" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="34c1d3a7-bd43-4255-8a43-0d5c273dd35b" />
+        <ownedAttributesInternal>
+          <property Id="d1fe9642-99eb-4dfd-a058-64e5a6d2256c" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5c06ac32-62d9-4829-8389-a2b594be5ad0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="efc1f627-e4c8-4b95-aa1e-7c750c076bc3" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="83c8ba6f-5034-492b-a440-657307cb920e" name="futar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="38e7b19d-f23c-4956-92f4-fcd4330fb479" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8d19db98-5ac6-4d05-bd1b-cd494584ad74" LastKnownName="Futar" />
+            </type_NamedElement>
+          </property>
+          <property Id="ffb05da3-b6b5-4445-8d72-b58cb6a3fca6" name="darum" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="728af066-d485-4392-9fee-176cf9122f6c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0c8d19b9-702f-4710-8413-f07d4e1d0ae9" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+          <property Id="d053d38f-8be3-437b-af8f-1c12c1374bb3" name="fizetesiMod" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="abd6b274-b110-4b70-968b-c8dcbd94d50d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="39e96918-01db-4caa-8a48-dbe27e9d7059" LastKnownName="FizetesiMod" />
+            </type_NamedElement>
+          </property>
+          <property Id="12c945d0-1b80-4519-a5d5-ddd089cd19a8" name="fizetve" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a7da3319-a9ad-4d7f-b536-cf0ec0e7a168" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d57ac3f0-a703-4f8d-be5b-8aebd95e4d97" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="e50f97ef-881b-463d-85a5-acf3af8c8964" name="kosar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f5c3a1ac-834d-477c-9b48-b7e537584ab2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cec9a64f-c824-4671-a778-7ef895764e36" LastKnownName="Kosar" />
+            </type_NamedElement>
+          </property>
+          <property Id="c1cd7aed-d0ab-4ce4-8a95-41ab4e8e6216" name="osszSuly" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0783d374-646a-4b6b-9c02-fac99b36465a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f318e682-b43b-40ce-9ec2-cc03ef4c2094" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="2fd8c2d3-bf30-4730-abd4-7df81da8f7fb" name="sulyKategoria" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4665580d-366c-4b56-8ba7-6321f4fc6e2d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d2856c4d-d91c-480b-92d7-ca270fb543ef" LastKnownName="SulyKategoria" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="7b24a267-8084-47a6-ab8e-2ae1737e2b6e" name="vegosszegSzamol" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="75f3e228-c785-4b79-91cf-2b0e551f1402" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="78d5ad2d-68cc-46cf-9f9a-74f98c85cd03" name="List&lt;Rendeles&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Rendeles&gt;">
+        <elementDefinition Id="2d3c149b-b6d5-4b5d-88e1-3531797f394e" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="b9b903f0-365d-4c5c-beea-941e0553d4cb" name="NovenyUML">
+    <elementDefinition Id="d9f476a8-048d-4421-a7ca-73e7db54c8a7" />
+  </package>
+</logicalClassDesignerModel>
